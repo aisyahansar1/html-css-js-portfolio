@@ -1,0 +1,9 @@
+AppData/
+NTUSER.*
+.DS_Store
+*.m
+*.fig
+.vscode/
+.anaconda/
+.ssh/
+
