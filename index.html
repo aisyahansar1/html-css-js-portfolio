@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Puteri Aisyah</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Puteri Aisyah</div>
+        <div class="hamburger-menu">
+            <div class=" hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>   
+            </div>
+            <ul class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </ul>
+        </div>
+     </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img 
+            class="profile-pic"
+            src="./assets/profilepic.jpg" 
+            alt="Puteri Aisyah profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Puteri Aisyah</h1>
+            <p class="section__text__p2">Chemical Engineer Graduate</p>
+            <div class="btn-container">
+                <button 
+                 class="btn btn-color-2" 
+                 onclick="window.open('./assets/_RESUME-PUTERI-AISYAH.pdf', '_blank')"
+                 > 
+                 Download CV
+                 </button>
+                 <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                 Contact Info
+                 </button>
+            </div>
+            <div id="socials-container">
+                <img 
+                 src="assets/linkedin_icon_transparent.png"
+                 alt="My linkeidn profile"
+                 class="icon" 
+                 onclick="location.href='https://www.linkedin.com/in/puteriaisyah'">
+                 <img 
+                 src="assets/github_2-removebg-preview.png"
+                 alt="My Github Profile"
+                 class="icon" 
+                 onclick="location.href='https://github.com/aisyahansar1'">
+            </div>
+        </div>  
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more</p>
+        <h1 class="title"> About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img 
+                src="assets/aboutpic.jpeg"
+                alt="Profile picture"
+                class="about-pic"/>
+
+
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="assets/experience.png"
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3> Experience</h3>
+                        <p> Reliability Engineer Intern <br /> Bunge Loders Croklaan at Pasir Gudang, Johor </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="assets/education2_transparent.png"
+                        alt="Education Icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p> Universiti Teknologi Malaysia, Johor <br />Bachelor of Chemical Engineer (Bioprocess) with Honours</p>
+                    </div>
+                    </div>
+                    <div class="text-container">
+                        <p> A passionate Chemical Engineering graduate with a strong analytical mindset and a keen interest in leveraging software solutions to enhance engineering processes. Recently trained and certified in Cloud Computing and AI, I am eager to apply these skills to optimize industrial operations, automate workflows, and drive data-driven decision-making. My background in chemical engineering, combined with my growing expertise in digital tools, allows me to bridge the gap between traditional engineering and modern technological advancements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow (1).png" alt="Arrow icon" class="Icon Arrow"
+        onclick="location.href='./#experience'" width="24" height="24"
+        />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Skills</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Software</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>AutoCAD</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>HTML,CSS, Javascript </h3>
+                                <p> Experienced </p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Phyton</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3> Microsoft Excel</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Power BI</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Amazon Web Services</h3>
+                                <p>Beginner</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title"> My Soft Skills</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3> Teamwork </h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Communication</h3>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Problem-Solving</h3>
+                              
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Critical Thinking</h3>
+                              
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3>Adaptability</h3>
+                                
+                            </div>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3> Analytical skills</h3>
+                              
+                            </div>
+                        </article>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3> Time Management</h3>
+                              
+                            </div>
+                        </article>
+                        </article>
+                        <article>
+                            <img src="assets/transparent-check-mark-checkmark-in-circle-symbolizing-approval-or-valida65f23d08daf286.5008556917103741528968.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                <h3> Leadership</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow (1).png" alt="Arrow icon" class="Icon Arrow"
+        onclick="location.href='./#projects'"  width="24" height="24"
+        />
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="assets/plantdesign2.jpg"
+                          alt="Projects 1"
+                          class="projects-img"/>   
+                    </div>
+                    <h2 class="experience-sub-title project-title">Plant Design Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('assets/Final report_Group 6.pdf', '_blank')">
+                            Download Report
+                        </button>
+                        
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('assets/P&ID diagram (Ascorbic acid production).pdf', '_blank')">
+                            Download P&ID Diagram
+                        </button>
+                        
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="assets/fyp22.jpg"
+                          alt="Projects 1"
+                          class="projects-img"/>   
+                    </div>
+                    <h2 class="experience-sub-title project-title">Final Year Project</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('assets/FYP2 SLIDE PUTERI AISYAH.pptx.pdf', '_blank')">
+                            Download FYP2 Slide
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                          src="assets/projectinternship.jpg"
+                          alt="Projects 1"
+                          class="projects-img"/>   
+                    </div>
+                    <h2 class="experience-sub-title project-title"> Vibration Pump Analysis</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('assets/IndustrialTraining_PuteriAisyah.pdf', '_blank')">
+                            Download Industrial Training Report
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="assets/arrow (1).png" 
+        alt="Arrow icon"
+        class="Icon Arrow"
+        onclick="location.href='./#contact'"
+        width="24" height="24" />
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img
+                src="assets/email.png"
+                alt="Email icon"
+                class="icon contact-ico email-icon" 
+                />
+                <p><a href="mailto:aisyahrahman9889@gmail.com">aisyahrahman9889@gmail.com</a>
+               </p>   
+            </div>
+            <div class="contact-info-container ">
+                <img
+                src="assets/linkedin_icon_transparent.png"
+                alt="Linkedin icon"
+                class="icon contact-ico " 
+                />
+                <p><a href="https://www.linkedin.com/in/puteriaisyah">Linkeidn</a>
+               </p>   
+            </div>
+        </h1>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-link-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p> Copyright &#169; 2025 Puteri Aisyah. All Right Reserved.</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html>
